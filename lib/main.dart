@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:my_experimentations/20-Nov/smelly_candidate_page.dart';
+import 'package:my_experimentations/20-Nov/smelly_refactor_page.dart';
 import 'package:my_experimentations/list_page.dart';
 
 void main() async {
@@ -32,8 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ListPage(),
-    );
+      home: ProfilePage(name: "John", email: "john@gmail.com",));
   }
 }
 
