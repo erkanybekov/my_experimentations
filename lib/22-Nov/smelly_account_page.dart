@@ -112,7 +112,7 @@ class _SettingsPageState extends State<SettingsPage> {
     return Scaffold(
       appBar: AppBar(title: const Text('Settings')),
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const .all(16),
         child: Column(
           children: [
             // profile inputs
@@ -140,7 +140,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   SizedBox _saveButton() {
     return SizedBox(
-      width: double.infinity,
+      width: .infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
         onPressed: _handleSave,
@@ -171,7 +171,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Row _notificationToggles() {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      mainAxisAlignment: .spaceBetween,
       children: [
         const Text('Notifications'),
         Switch(
@@ -192,7 +192,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Row _toggles() {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      mainAxisAlignment: .spaceBetween,
       children: [
         const Text('Dark mode'),
         Switch(
@@ -208,7 +208,7 @@ class _SettingsPageState extends State<SettingsPage> {
   Container _profileForms() {
     return Container(
       decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(6)),
-      padding: const EdgeInsets.all(12),
+      padding: .all(12),
       child: Column(
         children: [
           TextField(
