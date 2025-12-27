@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_experimentations/25-Dec/learn_expanded.dart';
 import 'package:my_experimentations/22-Nov/smelly_account_page.dart';
+import 'package:my_experimentations/27-Dec/learn_flexible.dart';
 
 void main() async {
   runApp(const MyApp());
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LearnExpanded());
+      home: LearnFlexible());
   }
 }
 
