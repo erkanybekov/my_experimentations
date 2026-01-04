@@ -14,3 +14,20 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+graph TB
+    A[App Layer] --> B[MultipeerService]
+    B --> C[MCSession]
+    
+    C --> D[Encryption Layer]
+    D -->|AES-128| E[Encrypted Data]
+    
+    E --> F[Transport Layer]
+    F -->|Wi-Fi Direct| G[Physical Layer]
+    F -->|Bluetooth| G
+    
+    G --> H[Remote Device]
+    
+    style D fill:#FFD700
+    style E fill:#50C878
