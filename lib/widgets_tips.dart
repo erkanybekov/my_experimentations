@@ -5,6 +5,11 @@ class MyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+         Expanded(child: Text("data"))
+      ],
+    );
   }
 }
