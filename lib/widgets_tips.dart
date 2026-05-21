@@ -8,7 +8,8 @@ class MyWidget extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-         Expanded(child: Text("data"))
+        Expanded(child: Text("data")),
+        Expanded(child: Text("data")),
       ],
     );
   }
