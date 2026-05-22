@@ -13,8 +13,7 @@ class MyWidget extends StatelessWidget {
         Flexible(child: Text("I don't know about your featA")),
         Flexible(child: Text("I don't know about your commits on featA")),
         Flexible(child: TextButton(onPressed: () {}, child: Text("feat click"))),
-        Text("f1"),
-        Text("f2")
+        Text("develop saved trying to clear history with reset")
       ],
     );
   }
