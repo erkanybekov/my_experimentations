@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:my_experimentations/28-Dec/learn_wrap.dart';
 import 'package:my_experimentations/4-Jan/learn_stack.dart';
+=======
+import 'package:my_experimentations/list_page.dart';
+>>>>>>> 142cb4c (init my experiments)
 
 void main() async {
   runApp(const MyApp());
@@ -33,7 +37,12 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
+<<<<<<< HEAD
       home: LearnStack());
+=======
+      home: ListPage(),
+    );
+>>>>>>> 142cb4c (init my experiments)
   }
 }
 
@@ -104,7 +113,11 @@ class _MyHomePageState extends State<MyHomePage> {
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
+<<<<<<< HEAD
           mainAxisAlignment: .center,
+=======
+          mainAxisAlignment: MainAxisAlignment.center,
+>>>>>>> 142cb4c (init my experiments)
           children: <Widget>[
             const Text('You have pushed the button this many times:'),
             Text(
