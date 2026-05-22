@@ -12,7 +12,9 @@ class MyWidget extends StatelessWidget {
         Expanded(child: Text("data")),
         Flexible(child: Text("I don't know about your featA")),
         Flexible(child: Text("I don't know about your commits on featA")),
-        Text("Develop1")
+        Flexible(child: TextButton(onPressed: () {}, child: Text("feat click"))),
+        Text("f1"),
+        Text("f2")
       ],
     );
   }
