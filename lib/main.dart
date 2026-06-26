@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_experimentations/28-Dec/learn_wrap.dart';
-import 'package:my_experimentations/4-Jan/learn_stack.dart';
+import 'package:my_experimentations/26-Jun/parallax_recipe.dart';
 
 void main() async {
   runApp(const MyApp());
@@ -33,7 +32,8 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LearnStack());
+      home: Scaffold(body: Center(child: ParallaxRecipe())),
+    );
   }
 }
 

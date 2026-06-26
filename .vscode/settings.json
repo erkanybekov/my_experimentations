@@ -1,0 +1,134 @@
+{
+  // --- Sweetpad (iOS) ---
+  "sweetpad.build.xcodeWorkspacePath": "ios/Runner.xcworkspace",
+  "sweetpad.build.configuration": "Profile",
+
+  // --- Editor ---
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "Dart-Code.dart-code",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.suggest.preview": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+
+  // --- Files ---
+  "files.autoSave": "afterDelay",
+  "files.watcherExclude": {
+    "**/.dart_tool/**": true,
+    "**/build/**": true
+  },
+
+  // --- Search ---
+  "search.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true,
+    "**/*.g.dart": true,
+    "**/*.freezed.dart": true
+  },
+
+  // --- Workbench ---
+  "workbench.iconTheme": "theme",
+  "problems.autoReveal": true,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#282a36",
+    "terminal.foreground": "#f8f8f2",
+    "terminal.ansiBlack": "#21222c",
+    "terminal.ansiRed": "#ff5555",
+    "terminal.ansiGreen": "#50fa7b",
+    "terminal.ansiYellow": "#f1fa8c",
+    "terminal.ansiBlue": "#bd93f9",
+    "terminal.ansiMagenta": "#ff79c6",
+    "terminal.ansiCyan": "#8be9fd",
+    "terminal.ansiWhite": "#f8f8f2",
+    "terminal.ansiBrightBlack": "#6272a4",
+    "terminal.ansiBrightRed": "#ff6e6e",
+    "terminal.ansiBrightGreen": "#69ff94",
+    "terminal.ansiBrightYellow": "#ffffa5",
+    "terminal.ansiBrightBlue": "#d6acff",
+    "terminal.ansiBrightMagenta": "#ff92df",
+    "terminal.ansiBrightCyan": "#a4ffff",
+    "terminal.ansiBrightWhite": "#ffffff"
+  },
+
+  // --- Explorer file nesting ---
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.dart": "${capture}.g.dart, ${capture}.freezed.dart, ${capture}.mocks.dart",
+    "pubspec.yaml": "pubspec.lock, .flutter-plugins, .flutter-plugins-dependencies, .metadata, .packages, build.yaml",
+    "*.arb": "${capture}_*.arb"
+  },
+
+  // --- Git ---
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.blame.editorDecoration.enabled": true,
+  "scm.diffDecorations": "all",
+
+  // --- Dart / Flutter (FVM 3.29.2) ---
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "dart.lineLength": 80,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.flutterOutline": true,
+  "dart.flutterGutterIcons": true,
+  "dart.renameFilesWithClasses": "always",
+  "dart.showTodos": true,
+  "dart.onlyAnalyzeProjectsWithOpenFiles": true,
+  "dart.runPubGetOnNestedProjects": "both",
+  "dart.flutterHotReloadOnSave": "manualIfDirty",
+  "dart.flutterGenerateLocalizationsOnSave": "manualIfDirty",
+  "dart.openDevTools": "flutter",
+  "dart.shareDevToolsWithFlutter": true,
+
+  // --- Cursor ---
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  },
+
+  // --- Language overrides ---
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "editor.rulers": [120],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  // --- Diff ---
+  "diffEditor.ignoreTrimWhitespace": false
+}
