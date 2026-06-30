@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_experimentations/26-Jun/parallax_recipe.dart';
+import 'package:my_experimentations/29-Jun/tabs.dart';
 
 void main() async {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Scaffold(body: Center(child: ParallaxRecipe())),
+      home: Tabs(),
     );
   }
 }
